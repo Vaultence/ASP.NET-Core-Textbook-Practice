@@ -1,6 +1,13 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+WebApplication app = builder.Build();
 
+if (app.Environment.IsDevelopment())
+{
+app.UseDeveloperExceptionPage();
+}
 app.UseStaticFiles();
+app.UseRouting();
+
+app.MapGet("/", () => "Hello!");
 
 app.Run();
