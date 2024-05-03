@@ -9,5 +9,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.MapGet("/", () => "Hello!");
+app.MapGet("/fail", () => {throw new Exception();});
 
 app.Run();
