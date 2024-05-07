@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WelcomePage", "WelcomePage\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticFile", "StaticFile\StaticFile.csproj", "{89AB0CA7-D790-4C15-B0B8-D02FB66356EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterizedRouting", "ParameterizedRouting\ParameterizedRouting.csproj", "{28092E58-C970-401B-BDF9-A52DD96B97D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{89AB0CA7-D790-4C15-B0B8-D02FB66356EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89AB0CA7-D790-4C15-B0B8-D02FB66356EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89AB0CA7-D790-4C15-B0B8-D02FB66356EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28092E58-C970-401B-BDF9-A52DD96B97D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28092E58-C970-401B-BDF9-A52DD96B97D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28092E58-C970-401B-BDF9-A52DD96B97D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28092E58-C970-401B-BDF9-A52DD96B97D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
