@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterizedRouting", "Par
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitPostExample", "FruitPostExample\FruitPostExample.csproj", "{49036332-41F4-4A8F-A2DA-36DFD2D828B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandlingProblemDetails", "ExceptionHandlingProblemDetails\ExceptionHandlingProblemDetails.csproj", "{F0221937-7967-4CD8-870D-DEC5D5133F7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{49036332-41F4-4A8F-A2DA-36DFD2D828B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49036332-41F4-4A8F-A2DA-36DFD2D828B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49036332-41F4-4A8F-A2DA-36DFD2D828B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0221937-7967-4CD8-870D-DEC5D5133F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0221937-7967-4CD8-870D-DEC5D5133F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0221937-7967-4CD8-870D-DEC5D5133F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0221937-7967-4CD8-870D-DEC5D5133F7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
